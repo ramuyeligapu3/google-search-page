@@ -58,8 +58,8 @@ nav .navbar-brand .green
 }
 .body {
     font-family: Arial, sans-serif;
-    padding-top: 30px;
-    padding-left: 500px;
+    margin-left: 10px;
+  
 
 }
 form {
@@ -84,8 +84,8 @@ input[type="text"] {
 input[type="submit"] {
     padding: 10px;
     border: none;
-    color: white;
-    background-color: #537fbe;
+    /* color:black;
+    background-color:whitesmoke; */
     cursor: pointer;
     font-size: 16px;
 }
@@ -94,6 +94,16 @@ input[type="submit"] {
 
 }
 #btad{
-    width: 150px;
-    border-radius: 20px;
+    width: 170px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+   
+    border: none;
+    transition: background-color 0.3s ease;
+    padding: 10px 20px;
+}
+
+#btad:hover {
+    background-color:rgb(242, 239, 239); /* Color on hover */
 }
